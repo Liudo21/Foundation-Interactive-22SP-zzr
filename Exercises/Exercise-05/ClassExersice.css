@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+*
+body{
+  font-family: 'Amatic SC', cursive;
+  font-size:30px;
+}
+.Feb{
+  font-size:40px;
+  color:#75806C;
+}
+.flex-wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  justify-content: space-between;
+  height: 230px;
+}
+.flex-wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  justify-content: space-between;
+  width: 270px;
+  height: 230px;
+}
+
+.flex-row-wrapper01 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color:#3B502F
+}
+.flex-row-wrapper02 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color:#9A9562;
+}
+.flex-row-wrapper03 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color:#9A9562;
+}
+.flex-row-wrapper04 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color:#9A9562;
+}
+.flex-row-wrapper05 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color:#9A9562;
+}
+
+
+
+.cell01{
+  width:280px;
+  height:35px;
+  background:#DAE5D7;
+}
+.cell02 {
+  width: 30px;
+  height: 30px;
+  background:#F8FAE7;
+}
