@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
 .title{
 	font-family: 'Rock 3D', cursive;
-	font-size:20px;
+	font-size:40px;
 	color:#255C0F;
 	text-align: center;
 	
@@ -19,9 +19,9 @@ body{
 }
 
 @keyframes ball {
-            0% {left:0px; transform: rotate(0deg);}
-            50% {left:950px;transform: rotate(360deg)}
-            100% {left:0px;transform: rotate(0deg);}
+            0% {left:0px; transform: rotate(0deg) scale(1);}
+            50% {left:950px;transform: rotate(360deg) scale(2,2);}
+            100% {left:0px;transform: rotate(0deg) scale(1);}
 	        
         }
 
@@ -58,17 +58,17 @@ body{
 			animation-iteration-count: infinite;
         }
         .five {
-			background-color:rgba(200,174,133,.5);
+			background-color:rgba(255,200,227,0.5);
             animation-timing-function: ease;
 			animation-iteration-count: infinite;
         }
         .six {
-			background-color:rgba(255,133,135,.5);
+			background-color:rgba(232,172,77,0.5);
             animation-timing-function: ease-in;
 			animation-iteration-count: infinite;
         }
         .seven {
-			background-color:rgba(255,138,189,.5);
+			background-color:rgba(255,148,29,0.5);
             animation-timing-function: ease-out;
 			animation-iteration-count: infinite;
         }
@@ -77,4 +77,6 @@ body{
             animation-timing-function: ease-in-out;
 			animation-iteration-count: infinite;
         }
+
+
 
