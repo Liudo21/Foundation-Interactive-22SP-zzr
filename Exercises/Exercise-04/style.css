@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+.title{
+	font-family: 'Rock 3D', cursive;
+	font-size:50px;
+	color:#255C0F;
+	text-align: center;
+	
+}
+body{
+    background: white;
+    background-image:
+        linear-gradient(90deg, rgba(255,203,82,.2) 50%, transparent 0),
+        linear-gradient(rgba(100,203,82,.2) 50%, transparent 0);
+    background-size: 30px 30px;
+    width: 451px;
+    height: 451px;
+}
+
+@keyframes ball {
+            0% {left:0px; transform: rotate(0deg);}
+            50% {left:950px;transform: rotate(360deg)}
+            100% {left:0px;transform: rotate(0deg);}
+	        
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+			border-radius: 50%;
+            text-align: center;
+            line-height: 100px;
+            position: relative;
+            animation-name: ball;
+            animation-duration: 5s;
+			font-size:60px;
+			
+        }
+        .one {
+			background-color:rgba(200,174,133,.5);
+            animation-timing-function: ease;
+			animation-iteration-count: infinite;
+        }
+        .two {
+			background-color:rgba(255,133,135,.5);
+            animation-timing-function: ease-in;
+			animation-iteration-count: infinite;
+        }
+        .three {
+			background-color:rgba(255,138,189,.5);
+            animation-timing-function: ease-out;
+			animation-iteration-count: infinite;
+        }
+        .four {
+			background-color:rgba(255,151,77,.5);
+            animation-timing-function: ease-in-out;
+			animation-iteration-count: infinite;
+        }
+
