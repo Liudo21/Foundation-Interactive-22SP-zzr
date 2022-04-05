@@ -1,0 +1,358 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ECECEA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 800px;
+	height: 456px;
+	margin: 100px auto;
+	background: #D4CEC5;
+	position: relative;
+	border: solid #CEC798 3px;
+	z-index:0;
+}
+
+
+/* this is where you can style the objects in your still life */
+.tablecloth{
+	width: 794px;
+	height: 211px;
+	margin-top: 240px;
+	background: #CDC1B0;
+	background-image: linear-gradient(#B0A6D1,#E6D8C0)
+}
+.cat01{
+	 width: 69px;
+     height: 57px;
+     background-color:#F0E9DF;
+	 position: absolute;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px;
+	 top: 230px;
+	 left:280px;
+	 z-index:1;
+}
+.cat02{
+	 width: 0;
+     height: 0;
+     border-left: 4px solid transparent;
+     border-right: 29px solid transparent;
+     border-top: 25px solid #F0E9DF;
+	 filter: drop-shadow(-5px 20px 6px #726390);
+	 position: absolute;
+	 top: 275px;
+	 left: 285px;
+	 z-index:1;
+}
+.cat03{
+	 width: 0;
+     height: 0;
+     border-left: 33px solid transparent;
+     border-right: 0px solid transparent;
+     border-top: 25px solid #F0E9DF;
+	 filter: drop-shadow(3px 20px 6px #726390);
+	 position: absolute;
+	 top: 275px;
+	 left: 310px;
+	 z-index:1;
+}
+.cat04{
+	 width: 70px;
+     height: 57px;
+     background-color:#F0E9DF;
+	 position: absolute;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px;
+	 top: 230px;
+	 left:300px;
+	 transform:skew(-10deg);
+	 z-index:1;
+}
+.cat05{
+	width: 50px;
+    height: 50px;
+    transform: skew(-24deg);
+    background: #F0E9DF;
+	filter: drop-shadow(6px 98px 30px #726390);
+	border-radius: 10%;
+	position: absolute;
+	top: 193px;
+	left:329px;
+	z-index:1;
+}
+.cat06{
+	  width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-left: 30px solid #F0E9DF;
+      border-bottom: 15px solid transparent;
+	  position: absolute;
+	  transform:skew(8deg);
+	  top: 226px;
+	  left:280px;
+	  z-index:1;
+}
+.cat07{
+	 width: 0;
+     height: 0;
+     border-left: 33px solid transparent;
+     border-right: 0px solid transparent;
+     border-top: 25px solid #F0E9DF;
+	 filter: drop-shadow(3px 16px 6px #726390);
+	 stroke-eidth: 60px;
+	 position: absolute;
+	 top: 270px;
+	 left: 330px;
+}
+.cat08{
+	  width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-left: 10px solid #31333D;
+      border-bottom: 10px solid transparent;
+	  position: absolute;
+	  top: 229px;
+	  left:281px;
+	  z-index:1;
+}
+.cat09{
+	  width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-right: 10px solid #31333D;
+      border-bottom: 10px solid transparent;
+	  position: absolute;
+	  top: 229px;
+	  left:328px;
+	  z-index:1;
+}
+.catface{
+	position: absolute;
+	top: 243px;
+	left: 290px;
+    z-index:1;
+}
+.matchbox01{
+	width: 80px;
+	height: 40px;
+	background-color:#745CA4;
+	background-image: linear-gradient(#745CA4,#4B3E64);
+	position: absolute;
+	transform:skew(-45deg);
+	top: 220px;
+	left: 240px;
+}
+.matchbox02{
+	width: 80px;
+	height: 20px;
+	background-color:#D4CAC6;
+	background-image: linear-gradient(#D4CAC6,#AFA693);
+	position: absolute;
+	top: 260px;
+	left: 220px;
+	box-shadow: 1px 5px 16px #726390;
+}
+.candel01{
+	width: 160px;
+    height: 40px;
+    background: #584391;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 40%;
+	top: 230px;
+	left: 360px;
+
+
+}
+.candel02{
+	width: 160px;
+    height: 40px;
+    background: #584391;
+	border-radius: 50%;
+	filter: drop-shadow(0px 10px 6px #47336F);
+	position: absolute;
+	opacity: 60%;
+	top: 250px;
+	left: 360px;
+}
+.candel03{
+	width: 160px;
+    height: 25px;
+    background: #A49885;
+	border-radius: 15%;
+	position: absolute;
+	opacity: 25%;
+	top: 250px;
+	left: 360px;
+}
+.candel04{
+	width: 50px;
+    height: 105px;
+    background: #584391;
+	background-image: linear-gradient(#D4CAC6,#665883);
+	border-radius: 15%;
+	position: absolute;
+	top: 154px;
+	left: 410px;
+}
+.ball01{
+    width: 50px;
+    height: 50px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 170px;
+	left: 370px;
+}
+.ball02{
+    width: 50px;
+    height: 50px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	left: 410px;
+	z-index: 1;
+}
+.ball03{
+    width: 50px;
+    height: 50px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 169px;
+	left: 410px;
+}
+.ball04{
+    width: 50px;
+    height: 50px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 173px;
+	left: 448px;
+	z-index:1;
+}
+.ball05{
+    width: 45px;
+    height: 45px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 210px;
+	left: 390px;
+	z-index:0;
+}
+.ball05{
+    width: 45px;
+    height: 45px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 210px;
+	left: 390px;
+	z-index:0;
+}
+.ball06{
+    width: 45px;
+    height: 45px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	left: 440px;
+	z-index:0;
+}
+.ball07{
+    width: 45px;
+    height: 45px;
+    background: #584391;
+	background-image: linear-gradient(to bottom right,#D4CAC6,#665883);
+    border-radius: 50%;
+	position: absolute;
+	top: 150px;
+	left: 440px;
+	z-index:0;
+}
+.container{
+  top: 130px;
+  left: 402px;
+  width: 1px;
+  height: 1px;
+  position:absolute;
+  transform-origin:center bottom;
+  animation-name: flicker;
+  animation-duration:3ms;
+  animation-delay:200ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.flame{
+  bottom:0;
+  position:absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform:rotate(-45deg) scale(1.5,1.5);
+}
+
+.f02{
+  left:13px; 
+  width: 25px;
+  height: 25px;
+  background:#756FCA;
+  box-shadow: 0px 0px 9px 4px #756FCA;
+}
+
+.f00{
+  left:9px; 
+  width: 30px;
+  height: 30px;
+  background:#FCE28D;
+  box-shadow: 0px 0px 9px 4px #FCE28D;
+}
+
+.f01{
+  left:5px;
+  width: 40px;
+  height: 40px;
+  background:#F3EF6B;
+  box-shadow: 0px 0px 5px 4px #F3EF6B;
+}
+
+.f03{
+  left:20px; 
+  bottom:-3px;
+  width: 13px;
+  height: 13px;
+  background:#D0CFF2;
+  box-shadow: 0px 0px 9px 4px #ABA79A;
+}
+
+
+@keyframes flicker{
+  0%   {transform: rotate(0deg);}
+  20%  {transform: rotate(1deg);}
+  40%  {transform: rotate(-1deg);}
+  60%  {transform: rotate(1deg) scaleY(1.04);}
+  80%  {transform: rotate(-2deg) scaleY(0.92);}
+  100% {transform: rotate(1deg);}
+}
