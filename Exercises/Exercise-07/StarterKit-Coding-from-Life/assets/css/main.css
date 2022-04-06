@@ -350,9 +350,9 @@ body {
 
 @keyframes flicker{
   0%   {transform: rotate(0deg);}
-  20%  {transform: rotate(4deg);}
+  20%  {transform: rotate(2deg);}
   40%  {transform: rotate(-1deg);}
-  60%  {transform: rotate(4deg) scaleY(2.04);}
+  60%  {transform: rotate(2deg) scaleY(1.04);}
   80%  {transform: rotate(-2deg) scaleY(0.92);}
-  100% {transform: rotate(4deg);}
+  100% {transform: rotate(2deg);}
 }
