@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit" />
+		<title>page2</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		
+		
+		<!--page2-->
+		<div class="page2">
+			
+			
+			<div class="p2t1">
+				<a href="page3.html">ARCHIVE OF THE FOOD</a> <br /> 
+				I ALWAYS BUY FROM CONVENIENCE STORE
+			</div>
+			
+			
+			<div class="list">
+				<a href="javascript:;" num="07">Cart Noodles</a> <br />
+				<a href="javascript:;" num="04">Fish Balls</a><br />
+				<a href="javascript:;" num="08">Beef Balls</a><br />
+				<a href="javascript:;" num="05">Vita Lemon Tea</a><br />
+				<a href="javascript:;" num="09">LVLI Peach Juice</a><br />
+				<a href="javascript:;" num="10">A Chicken Kebab with Honey Sauce</a><br />
+				<a href="javascript:;" num="12">SHENGJI Pineapple Ice Cream</a><br />
+				<a href="javascript:;" num="13">Sticky Rice Chicken</a><br />
+				<a href="javascript:;" num="06">MEJI HelloPanda Cookies</a><br />
+				<a href="javascript:;" num="11">Five Goats Ice Cream</a><br />
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ%22%3ENOT">Next page</a>
+			</div>
+			
+			
+			
+			<!--img01-->
+			<div class="img01">
+				<img src="img/01.png"/>
+			</div>
+			
+			<!--img04-->
+			<div class="img04 d-none"><img src="img/04.png"/></div>
+			<!--img05-->
+			<div class="img05 d-none"><img src="img/05.png"/></div>
+			<!--img06-->
+			<div class="img06 d-none"><img src="img/06.png"/></div>
+			<!--img07-->
+			<div class="img07 d-none"><img src="img/07.png"/></div>
+			<!--img08-->
+			<div class="img08 d-none"><img src="img/08.png"/></div>
+			<!--img09-->
+			<div class="img09 d-none"><img src="img/09.png"/></div>
+			<!--img10-->
+			<div class="img10 d-none"><img src="img/10.png"/></div>
+			<!--img11-->
+			<div class="img11 d-none"><img src="img/11.png"/></div>
+			<!--img12-->
+			<div class="img12 d-none"><img src="img/12.png"/></div>
+			<!--img13-->
+			<div class="img13 d-none"><img src="img/13.png"/></div>
+			
+		</div>
+		
+		
+		<script src="lib/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				
+				
+				$('.list a').on('mouseenter mouseleave', function(){
+					
+					
+					var index = $(this).attr("num");
+					$(".img"+index).toggle();
+//					console.log(index);
+//					console.log($(".img"+index).width());
+
+					
+//					var index = $(this).index() + 4;
+//					console.log(index)
+//					console.log($(".img"+index).width());
+					
+				});
+				
+			});
+		</script>
+	</body>
+</html>
