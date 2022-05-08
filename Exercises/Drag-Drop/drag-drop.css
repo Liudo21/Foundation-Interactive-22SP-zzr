@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+/*DRAGGABLE */
+        #draggable{ 
+          width: 150px;
+          height: 60px;
+          padding: 0.8em;
+          background-color: #000000;
+          font-family: 'Koulen', cursive;
+          color: #ffffff;
+         }
+
+/*DROPPABLE */
+
+   #droppable, #droppable2, #droppable3, #droppable4{
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+         }
+
+		#droppable5{
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+       }
