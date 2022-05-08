@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+body {
+  text-align: center;
+  background-color: #86AC7E;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 30px;
+  color:#E3504C;
+}
+
