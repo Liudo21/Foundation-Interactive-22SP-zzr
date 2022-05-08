@@ -1,0 +1,12 @@
+body {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	line-height: 2.5em;
+	background-color: white;
+    }
+    .main {
+      width: 50%;
+      margin: 3em auto;
+      padding: 1em;
+}
+ 
+/* CSS Document */
